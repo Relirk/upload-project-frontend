@@ -1,4 +1,4 @@
-# Upload image proto (Frontend)
+# Upload image (Frontend)
 :camera: Sample upload image interface built with React and AWS-S3
 
 This application is using heroku buildpacks:
