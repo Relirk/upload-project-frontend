@@ -1,10 +1,23 @@
-# upload-project-frontend
-:computer: Creating an interface to communicate with the Image Upload API locally and remotely
+# Upload image proto (Frontend)
+:camera: Sample upload image interface built with React and AWS-S3
 
-Heroku url: https://rlk-upload-project-frontend.herokuapp.com/
+This application is using heroku buildpacks:
+* create-react-app: mars/create-react-app
 
-Build your .env file based on these specifications: 
+### [Live Demo](https://rlk-upload-project-frontend.herokuapp.com/)
 
-#
-  * REACT_APP_API_URL=http://localhost:3333
-#
+![Screenshot 1](upload.png)
+
+### Start API
+[Clone the project](https://github.com/Relirk/upload-project-backend) or test
+[the live API](https://rlk-upload-project-backend.herokuapp.com/)
+
+### Running Locally
+```sh
+# Install dependencies
+yarn install
+
+# Start the app on a new window
+yarn start
+```
+
